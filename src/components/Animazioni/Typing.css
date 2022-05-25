@@ -1,0 +1,17 @@
+#general{
+    margin: 70px;
+    font-size: 32px;
+    text-align: center;
+    color: black;
+}
+#type{
+    border-radius: 4px;
+    padding: 7px;
+    color: white;
+    background-color: rgb(0, 1, 36);
+}
+.container{
+    color: rgb(200, 200, 200);
+
+    margin-top: 50px;
+}
