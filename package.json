@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "expo": "^45.0.4",
     "express": "^4.18.1",
+    "flexbox-react": "^4.4.0",
     "mdb-react-ui-kit": "^3.0.0",
     "mdb-ui-kit": "^3.11.0",
     "node-sass": "^7.0.1",
@@ -23,7 +24,9 @@
     "react-back-to-top-button": "^0.0.14",
     "react-bootstrap": "^2.2.3",
     "react-dom": "^18.0.0",
+    "react-grid-layout": "^1.3.4",
     "react-native-divider": "^1.0.3",
+    "react-native-grid-component": "^2.0.1",
     "react-native-grid-image-viewer-with-caption": "^1.0.5",
     "react-native-paper": "^4.12.1",
     "react-native-web": "^0.17.7",
@@ -32,6 +35,7 @@
     "react-typing-effect": "^2.0.5",
     "rxjs": "^7.5.5",
     "semantic-ui-react": "^2.1.2",
+    "styled-components": "^5.3.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

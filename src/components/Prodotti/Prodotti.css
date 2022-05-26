@@ -1,20 +1,35 @@
 #container{
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(197, 197, 197);
 }
 #divisore{
-
-padding: 70px;
 text-align: center;
-color: #800;
+color: rgb(121, 0, 0);
 font-style:normal;
-margin-top: 120px;
+margin: 5vmax;
+padding-top: 5vmax;
 }
 #ImPro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
     background-color: rgb(0, 1, 36);
     text-align: center;
+    color: white;
 }
 #immagine{
     width: 13vmin;
-    margin: 10vmin 10vmax;
-    
+    margin: 5vmin;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+a::after{
+    text-decoration: none;
+    color: white;
 }
