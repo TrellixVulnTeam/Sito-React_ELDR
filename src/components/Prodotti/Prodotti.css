@@ -5,8 +5,8 @@
 text-align: center;
 color: rgb(121, 0, 0);
 font-style:normal;
-margin: 5vmax;
-padding-top: 5vmax;
+margin: 3vmax;
+padding-top: 3vmax;
 }
 #ImPro{
     display: flex;
@@ -21,15 +21,37 @@ padding-top: 5vmax;
     width: 13vmin;
     margin: 5vmin;
 }
-a{
-    text-decoration: none;
+a:link, a:visited{
     color: white;
+    text-decoration: none;
 }
 a:hover{
-    text-decoration: none;
     color: white;
-}
-a::after{
     text-decoration: none;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}
+@media screen and (max-width: 720px){
+    #ImPro{
+        display: grid;
+        justify-content: space-evenly;
+    }
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+a:active{
+    color: white;
+    text-decoration: none;
+}
+}
+
+.aFig{
     color: white;
 }

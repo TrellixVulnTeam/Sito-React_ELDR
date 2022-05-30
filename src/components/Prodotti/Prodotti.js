@@ -8,30 +8,30 @@ const Prodotti = () =>{
             <h2 id='divisore'>Prodotti</h2>
             <div id='ImPro'>
             <figure><a href='./Voli.js'>
-            <img id='immagine' src={viaggi} alt="Immagine 1"/></a>
-            <figcaption><h3>Voli</h3></figcaption>
+            <img id='immagine' src={viaggi} alt="Immagine 1"/>
+            <figcaption><h3>Voli</h3></figcaption></a>
             </figure>
             <figure>
-                <a href='./Mete.js'><img id='immagine' src={mondo} alt="Immagine 2"/></a>
-                <figcaption><h3>Mete</h3></figcaption>
+                <a  href='./Mete'><img id='immagine' src={mondo} alt="Immagine 2"/>
+                <figcaption><h3 className="aFig">Mete</h3></figcaption></a>
             </figure>
             <figure>
-                <a href='./Tappe.js'><img id='immagine' src={tappa} alt="Immagine 3"/></a>
-                <figcaption><h3>Tappe</h3></figcaption>
+                <a href='./Tappe.js'><img id='immagine' src={tappa} alt="Immagine 3"/>
+                <figcaption><h3 className="aFig">Tappe</h3></figcaption></a>
             </figure>
             </div>
             <div id='ImPro'>
             <figure><a href='./Voli.js'>
-            <img id='immagine' src={viaggi} alt="Immagine 1"/></a>
-            <figcaption><h3>Voli</h3></figcaption>
+            <img id='immagine' src={viaggi} alt="Immagine 1"/>
+            <figcaption><h3 className="aFig">Voli</h3></figcaption></a>
             </figure>
-            <figure>
+            <figure><a href='/Mete.js'>
                 <img id='immagine' src={mondo} alt="Immagine 2"/>
-                <figcaption><h3>Mete</h3></figcaption>
+                <figcaption><h3 className="aFig">Mete</h3></figcaption></a>
             </figure>
-            <figure>
+            <figure><a href='./Tappe.js'>
                 <img id='immagine' src={tappa} alt="Immagine 3"/>
-                <figcaption><h3>Tappe</h3></figcaption>
+                <figcaption><h3 className="aFig">Tappe</h3></figcaption></a>
             </figure>
             </div>
         </div>

@@ -5,23 +5,23 @@ import Home from './components/Home';
 import Navigationbar from './components/Navigationbar';
 import Footer from './components/Footer';
 import BackTop from './components/Pulsanti/backTop';
+import Prod from "./components/Prodotti/Mete";
 
 function App() {
   return (
-    <div className="App">
-    <BackTop/>
         <Router>
-        
+        <div className="App">
             <Navigationbar />
+            <BackTop/>
             <Switch>
                 <Route exact path='/' component={Home}/>
                 <Route path='/about' component={About}/>
-                
+                <Route path='/contact' component={Contact}/>
+                <Route path=''component={Prod} />
             </Switch>
-            <Route path='/contact' component={Contact}/>
-        </Router>
         <Footer/>
     </div>
+    </Router>
   );
 }
 
